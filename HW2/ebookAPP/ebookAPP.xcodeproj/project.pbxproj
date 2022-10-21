@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE0B1CBD29006A2D0057A510 /* pokeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0B1CBC29006A2D0057A510 /* pokeRow.swift */; };
+		AE0B1CBF29006A740057A510 /* poke.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0B1CBE29006A740057A510 /* poke.swift */; };
+		AE0B1CC129006FE10057A510 /* shinny.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0B1CC029006FE10057A510 /* shinny.swift */; };
+		AE0B1CC3290080B50057A510 /* other1.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0B1CC2290080B50057A510 /* other1.swift */; };
+		AE9CA01128FC5E7100C23732 /* ebookAPPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9CA01028FC5E7100C23732 /* ebookAPPApp.swift */; };
+		AE9CA01328FC5E7100C23732 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9CA01228FC5E7100C23732 /* ContentView.swift */; };
+		AE9CA01528FC5E7300C23732 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE9CA01428FC5E7300C23732 /* Assets.xcassets */; };
+		AE9CA01828FC5E7300C23732 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE9CA01728FC5E7300C23732 /* Preview Assets.xcassets */; };
+		AE9CA01F28FFE27B00C23732 /* pokeVideo.mov in Resources */ = {isa = PBXBuildFile; fileRef = AE9CA01E28FFE27B00C23732 /* pokeVideo.mov */; };
+		AED025342900416C00E30EBA /* pokeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED025332900416C00E30EBA /* pokeList.swift */; };
+		AEF37C6029005E2F00876E64 /* pokeList2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF37C5F29005E2F00876E64 /* pokeList2.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AE0B1CBC29006A2D0057A510 /* pokeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pokeRow.swift; sourceTree = "<group>"; };
+		AE0B1CBE29006A740057A510 /* poke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = poke.swift; sourceTree = "<group>"; };
+		AE0B1CC029006FE10057A510 /* shinny.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shinny.swift; sourceTree = "<group>"; };
+		AE0B1CC2290080B50057A510 /* other1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = other1.swift; sourceTree = "<group>"; };
+		AE0B1CC42901C3F30057A510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		AE9CA00D28FC5E7100C23732 /* ebookAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ebookAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE9CA01028FC5E7100C23732 /* ebookAPPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ebookAPPApp.swift; sourceTree = "<group>"; };
+		AE9CA01228FC5E7100C23732 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AE9CA01428FC5E7300C23732 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE9CA01728FC5E7300C23732 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AE9CA01E28FFE27B00C23732 /* pokeVideo.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = pokeVideo.mov; sourceTree = "<group>"; };
+		AED025332900416C00E30EBA /* pokeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pokeList.swift; sourceTree = "<group>"; };
+		AEF37C5F29005E2F00876E64 /* pokeList2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pokeList2.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE9CA00A28FC5E7100C23732 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE9CA00428FC5E7100C23732 = {
+			isa = PBXGroup;
+			children = (
+				AE9CA00F28FC5E7100C23732 /* ebookAPP */,
+				AE9CA00E28FC5E7100C23732 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE9CA00E28FC5E7100C23732 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE9CA00D28FC5E7100C23732 /* ebookAPP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE9CA00F28FC5E7100C23732 /* ebookAPP */ = {
+			isa = PBXGroup;
+			children = (
+				AE0B1CC42901C3F30057A510 /* Info.plist */,
+				AE9CA01028FC5E7100C23732 /* ebookAPPApp.swift */,
+				AE9CA01E28FFE27B00C23732 /* pokeVideo.mov */,
+				AE9CA01228FC5E7100C23732 /* ContentView.swift */,
+				AE0B1CBC29006A2D0057A510 /* pokeRow.swift */,
+				AEF37C5F29005E2F00876E64 /* pokeList2.swift */,
+				AED025332900416C00E30EBA /* pokeList.swift */,
+				AE0B1CC2290080B50057A510 /* other1.swift */,
+				AE0B1CC029006FE10057A510 /* shinny.swift */,
+				AE0B1CBE29006A740057A510 /* poke.swift */,
+				AE9CA01428FC5E7300C23732 /* Assets.xcassets */,
+				AE9CA01628FC5E7300C23732 /* Preview Content */,
+			);
+			path = ebookAPP;
+			sourceTree = "<group>";
+		};
+		AE9CA01628FC5E7300C23732 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AE9CA01728FC5E7300C23732 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE9CA00C28FC5E7100C23732 /* ebookAPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE9CA01B28FC5E7300C23732 /* Build configuration list for PBXNativeTarget "ebookAPP" */;
+			buildPhases = (
+				AE9CA00928FC5E7100C23732 /* Sources */,
+				AE9CA00A28FC5E7100C23732 /* Frameworks */,
+				AE9CA00B28FC5E7100C23732 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ebookAPP;
+			productName = ebookAPP;
+			productReference = AE9CA00D28FC5E7100C23732 /* ebookAPP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE9CA00528FC5E7100C23732 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					AE9CA00C28FC5E7100C23732 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = AE9CA00828FC5E7100C23732 /* Build configuration list for PBXProject "ebookAPP" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE9CA00428FC5E7100C23732;
+			productRefGroup = AE9CA00E28FC5E7100C23732 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE9CA00C28FC5E7100C23732 /* ebookAPP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE9CA00B28FC5E7100C23732 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE9CA01828FC5E7300C23732 /* Preview Assets.xcassets in Resources */,
+				AE9CA01528FC5E7300C23732 /* Assets.xcassets in Resources */,
+				AE9CA01F28FFE27B00C23732 /* pokeVideo.mov in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE9CA00928FC5E7100C23732 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE0B1CBF29006A740057A510 /* poke.swift in Sources */,
+				AE9CA01328FC5E7100C23732 /* ContentView.swift in Sources */,
+				AE0B1CC3290080B50057A510 /* other1.swift in Sources */,
+				AED025342900416C00E30EBA /* pokeList.swift in Sources */,
+				AE0B1CC129006FE10057A510 /* shinny.swift in Sources */,
+				AE0B1CBD29006A2D0057A510 /* pokeRow.swift in Sources */,
+				AE9CA01128FC5E7100C23732 /* ebookAPPApp.swift in Sources */,
+				AEF37C6029005E2F00876E64 /* pokeList2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AE9CA01928FC5E7300C23732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE9CA01A28FC5E7300C23732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE9CA01C28FC5E7300C23732 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ebookAPP/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ebookAPP/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hi.ebookAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE9CA01D28FC5E7300C23732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ebookAPP/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ebookAPP/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hi.ebookAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE9CA00828FC5E7100C23732 /* Build configuration list for PBXProject "ebookAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE9CA01928FC5E7300C23732 /* Debug */,
+				AE9CA01A28FC5E7300C23732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE9CA01B28FC5E7300C23732 /* Build configuration list for PBXNativeTarget "ebookAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE9CA01C28FC5E7300C23732 /* Debug */,
+				AE9CA01D28FC5E7300C23732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE9CA00528FC5E7100C23732 /* Project object */;
+}
